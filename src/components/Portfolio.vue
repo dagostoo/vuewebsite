@@ -1,10 +1,10 @@
 <template>
-    <section class="bg-light" id="portfolio">
+    <section class="bg-light" id="Our Dogs">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Our Dogs</h2>
+            <h3 class="section-subheading text-muted">Cane Corso Kennel Galaktic Gravity</h3>
           </div>
         </div>
         <div class="row">
@@ -16,7 +16,7 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+                    <img class="img-fluid" src="img/portfolio/duche1.jpg" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>{{ obj.caption }}</h4>
@@ -34,38 +34,43 @@ export default {
         portfolioJSON: [
             {
                 img: '/something/random/img.jpg',
-                caption: 'Explore',
-                title: 'Graphic Design'
+                caption: 'Kony',
+                title: 'Female'
+            },
+            {
+                img: '/components/img/portfolio/duche1.jpg',
+                caption: 'Duche',
+                title: 'Male'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Finish',
-                title: 'Identify'
+                caption: 'Felicita',
+                title: 'Female'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Lines',
-                title: 'Branding'
+                caption: 'Hanka',
+                title: 'Female'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Southwest',
-                title: 'Website Design'
+                caption: 'Gucci',
+                title: 'Male'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Window',
-                title: 'Photography'
+                caption: 'Boss',
+                title: 'Male' 
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Coffee',
-                title: 'Drink a Lot!' 
+                caption: 'Masha',
+                title: 'Female'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Pizza',
-                title: 'I Ate some Pizza!'
+                caption: 'Kusti',
+                title: 'Male' 
             }
         ]
     })
