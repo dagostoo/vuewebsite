@@ -38,7 +38,7 @@ export default {
                 title: 'Female'
             },
             {
-                img: '/components/img/portfolio/duche1.jpg',
+                img: 'https://www.kingarthurflour.com/sites/default/files/styles/featured_image/public/recipe_legacy/48-3-large.jpg?itok=inlusIOg',
                 caption: 'Duche',
                 title: 'Male'
             },
