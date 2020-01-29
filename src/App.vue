@@ -90,7 +90,7 @@ The Maine Coon was denied provisional breed status—one of the three steps requ
 
     <!-- About us -->
     
-  <About><About>
+  <About/>
 
     <!-- Location -->
     <section class="bg-light" id="location">
@@ -507,11 +507,14 @@ The Maine Coon was denied provisional breed status—one of the three steps requ
 <script>
 
 import Portfolio from './components/Portfolio'
+// because thats why it want show up you did not import it like profolio and did not register it
+import About from './components/About'
 
 export default {
   name: 'app',
   components: {
-    Portfolio
+    Portfolio,
+    About
   }
 }
 </script>

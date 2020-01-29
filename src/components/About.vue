@@ -83,8 +83,10 @@
 <script>
 export default {
   name: 'About',
-  components: {
+  // you will need this only if import a Component like in App.vue the Porfolio to register it there after register it you can use it in template as a tag
+  /*components: {
     About
   }
+  */
 }
-<script>
+</script>
