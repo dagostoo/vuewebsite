@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-light" id="Our Dogs">
+    <section class="bg-light" id="ourdogs">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
