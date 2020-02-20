@@ -12,13 +12,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#breeds">About breeds</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#dogs">Our Dogs</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#breed">Breed standards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#dogs">Our dogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#location">Location</a>
@@ -37,21 +37,21 @@
         <div class="intro-text">
           <div class="intro-lead-in">Welcome To Kennel Galaktic Gravity website!</div>
           <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#breeds">Tell Me More</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Tell Me More</a>
         </div>
       </div>
     </header>
 
     <!-- Services -->
 
-  <Breeds/>
+  <About/>
 
     <!-- dogs Grid -->
     <Dogs></Dogs>
 
-    <!-- About us -->
+    <!-- Breed standards -->
     
-  <About/>
+  <Breed/>
 
     <!-- Location -->
   <Location/>
@@ -338,9 +338,9 @@
 <script>
 
 // because thats why it want show up you did not import it like profolio and did not register it
-import About from './components/About'
+import Breed from './components/Breed'
 import Location from './components/Location'
-import Breeds from './components/Breeds'
+import About from './components/About'
 import Contact from './components/Contact'
 import Dogs from './components/Dogs'
 
@@ -349,9 +349,9 @@ export default {
   name: 'app',
   components: {
     Dogs,
-    About,
+    Breed,
     Location,
-    Breeds,
+    About,
     Contact
   }
 }
@@ -366,7 +366,7 @@ export default {
   color: #2c3e50;
 }
 
-body {
+navbar {
   background: black;
 }
 
