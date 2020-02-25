@@ -373,6 +373,10 @@ navbar {
 .fixed-top {
   position: absolute;
 }
+
+body {
+  font-family: sans-serif !important
+}
 </style>
 
 
