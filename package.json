@@ -11,7 +11,8 @@
     "ajv": "^5.5.2",
     "loglevel": "^1.6.7",
     "v-show-slide": "^1.8.3",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-property-decorator": "^8.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.1",
