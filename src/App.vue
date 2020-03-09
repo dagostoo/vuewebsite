@@ -45,15 +45,18 @@
 
   <About/>
 
-    <!-- dogs Grid -->
+    <!-- Doggos -->
     <Dogs></Dogs>
 
+    <!-- Puppies -->
+    <Puppies/>
     <!-- Breed standards -->
     
   <Breed/>
 
     <!-- Location -->
   <Location/>
+
 
     <!-- Clients -->
     <section class="py-5">
@@ -342,6 +345,7 @@ import Location from './components/Location'
 import About from './components/About'
 import Contact from './components/Contact'
 import Dogs from './components/Dogs'
+import Puppies from './components/Puppies'
 
 
 export default {
@@ -351,7 +355,8 @@ export default {
     Breed,
     Location,
     About,
-    Contact
+    Contact,
+    Puppies
   }
 }
 </script>
