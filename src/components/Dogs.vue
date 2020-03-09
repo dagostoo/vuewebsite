@@ -8,7 +8,6 @@
                 </div>
             </div>
             <div class="row">
-
                 <div class="col-md-4 col-sm-6 dogs-item" v-for="(obj, key) in dogsJSON" :key="key">
                     <a class="dogs-link" data-toggle="modal" href="#dogsModal2">
                         <div class="dogs-hover">
@@ -16,7 +15,7 @@
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/dogs/02-thumbnail.jpg" alt="">
+                        <img class="img-fluid" src="/img/02_thumbnail.jpg" alt="">
                     </a>
                     <div class="dogs-caption">
                         <h4>{{ obj.caption }}</h4>
@@ -33,7 +32,7 @@
         data: () => ({
             dogsJSON: [
                 {
-                    img: '/something/random/img.jpg',
+                    img: '/public/img/01_thumbnail.jpg',
                     caption: 'DEVIL BE COME THE STAR DRAGON',
                     title: 'Duche'
                 },
