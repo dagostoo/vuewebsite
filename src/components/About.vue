@@ -17,7 +17,7 @@ Dogs are surrounded by love, care and attention, independently participating in 
 
 <script>
 export default {
-  name: 'About',
+  name: 'About'
   
 }
 </script>

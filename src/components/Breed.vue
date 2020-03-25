@@ -21,7 +21,7 @@
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="C:\Users\Tariet Aguraiuja\vuewebsite\src\components\img\1.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="../assets/img/dogs/kaksi.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
