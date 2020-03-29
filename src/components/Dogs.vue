@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 dogs-item" v-for="(obj, key) in dogsJSON" :key="key">
-                    <a class="dogs-link" data-toggle="modal" href="#dogsModal2">
+                    <a class="dogs-link" data-toggle="modal" href="#dogsModal1">
                         <div class="dogs-hover">
                             <div class="dogs-hover-content">
                                 <i class="fas fa-plus fa-3x"></i>
@@ -82,9 +82,6 @@
 </script>
 
 <style lang="css">
-    img {
-        width:  400px;
-    }
 
 </style>
 

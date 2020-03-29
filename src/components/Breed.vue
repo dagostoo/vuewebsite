@@ -21,7 +21,7 @@
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="../assets/img/dogs/kaksi.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -298,3 +298,9 @@ lowered into the scrotum.</p>
     name: 'Breed'
     }
 </script>
+
+<style>
+    .timeline-image {
+        background-color: black !important;
+    }
+</style>

@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <img src="../assets/img/logos/golden_logo.png" class="navbar-brand js-scroll-trigger" href="#page-top" style="width: 35%; max-width: 20rem; crop:fill">
+            <img src="../assets/img/logos/golden_logo.png" class="navbar-brand js-scroll-trigger" href="#page-top" style="width:100%; max-width:170px" >
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -37,3 +37,24 @@
         }
     }
 </script>
+
+<style>
+    .fixed-top {
+        position: absolute;
+        background-color:black !important
+    }
+
+    mainNav {
+        padding-top: 25px !important;
+        padding-bottom: 10px !important;
+    }
+    .btn-primary {
+        background-color: gray !important;
+        border-color: gray !important
+    }
+    .btn {
+        font-weight: 600 !important;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+</style>

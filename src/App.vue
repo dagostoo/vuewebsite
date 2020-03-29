@@ -12,7 +12,7 @@
   <About/>
 
     <!-- Doggos -->
-    <Dogs/>
+    <Dogs></Dogs>
 
     <!-- Puppies -->
     <Puppies/>
@@ -49,7 +49,7 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
+                  <h2 class="text-uppercase">DEVIL BECOME THE STAR DRAGON</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/dogs/01-full.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
@@ -83,7 +83,7 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
+                  <h2 class="text-uppercase">lol</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/dogs/02-full.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
@@ -284,16 +284,7 @@ export default {
 
 body {
   background: black;
-}
-
-.fixed-top {
-  position: absolute;
-  background-color:black !important
-}
-
-#mainNav {
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
+  font-family: "Dosis", sans-serif;
 }
 </style>
 
