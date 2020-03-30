@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 dogs-item" v-for="(obj, key) in dogsJSON" :key="key">
-                    <a class="dogs-link" data-toggle="modal" href="#dogsModal1">
+                    <a class="dogs-link" data-toggle="modal" v-bind:href=" '#dogsModal' + obj.id">
                         <div class="dogs-hover">
                             <div class="dogs-hover-content">
                                 <i class="fas fa-plus fa-3x"></i>
@@ -34,47 +34,56 @@
                 {
                     img: require('../assets/img/dogs/douche.jpg'),
                     caption: 'DEVIL BE COME THE STAR DRAGON',
-                    title: 'Duche'
+                    title: 'Duche',
+                    id: 1
                 },
                 {
                     img: require('../assets/img/dogs/kaksi.jpg'),
                     caption: 'ESTELLUM CALACTYC FIRST',
-                    title: 'Kaksi'
+                    title: 'Kaksi',
+                    id: 2
                 },
                 {
                     img: require('../assets/img/dogs/connie.jpg'),
                     caption: 'GALAKTIC GRAVITY CONNIE FRANCIS',
-                    title: 'Connie'
+                    title: 'Connie',
+                    id: 3
                 },
                 {
                     img: require('../assets/img/dogs/hanka.jpg'),
                     caption: 'HOW BEAUTIFUL YOU ARE TORQUES',
-                    title: 'Hanka'
+                    title: 'Hanka',
+                    id: 4
                 },
                 {
                     img: require('../assets/img/dogs/gucci.jpg'),
                     caption: 'KAIT KLASSIK MYSTERY OF LIFE',
-                    title: 'Gucci'
+                    title: 'Gucci',
+                    id: 5
                 },
                 {
                     img: require('../assets/img/dogs/boss.jpg'),
                     caption: 'BOSTON STYLE IN DELIBLE IM PRESHEN',
-                    title: 'Boss'
+                    title: 'Boss',
+                    id: 6
                 },
                 {
                     img: require('../assets/img/dogs/kusti.jpg'),
                     caption: 'GALAKTIC GRAVITY GALLAGHER',
-                    title: 'Kusti'
+                    title: 'Kusti',
+                    id: 7
                 },
                 {
                     img: require('../assets/img/dogs/felicita.jpg'),
                     caption: 'HABIBI BOSTON FELICITA',
-                    title: 'Felicita'
+                    title: 'Felicita',
+                    id: 8
                 },
                 {
                     img: require('../assets/img/dogs/maria.jpg'),
                     caption: 'GALAKTIC GRAVITY ANGEL FIRST',
-                    title: 'Maria'
+                    title: 'Maria',
+                    id: 9
                 }
             ]
         })
@@ -82,6 +91,9 @@
 </script>
 
 <style lang="css">
-
+    .img-fluid {
+        width:  auto !important;
+        height: complex !important;
+    }
 </style>
 
