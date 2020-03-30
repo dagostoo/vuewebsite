@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <img src="../assets/img/logos/white_logo.png" class="navbar-brand js-scroll-trigger qwe" href="#page-top" style="width:100%; max-width:170px" >
+            <img src="../assets/img/logos/white_logo_сut.png" class="navbar-brand js-scroll-trigger qwe" href="#page-top" style="width:100%; max-width:170px" >
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -40,8 +40,8 @@
 
 <style>
    .navbar-brand {
-       max-width: 50px !important;
-       padding-bottom: 0px !important;
+       max-width: 180px !important;
+       padding-bottom: 5px !important;
    }
 
     .fixed-top {
