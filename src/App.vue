@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 
     <!-- Navigation -->
     <Navigation/>

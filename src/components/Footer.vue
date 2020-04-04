@@ -13,7 +13,7 @@
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://www.facebook.com/veronika.aguraiuja">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
@@ -44,3 +44,7 @@
         name: "Footer"
     }
 </script>
+
+<style>
+
+</style>

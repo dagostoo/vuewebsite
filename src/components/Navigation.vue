@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <img src="../assets/img/logos/white_logo_сut.png" class="navbar-brand js-scroll-trigger qwe" href="#page-top" style="width:100%; max-width:170px" >
+            <img src="../assets/img/logos/white_logo_сut.png" class="navbar-brand js-scroll-trigger" href="#page-top" style="width:120%; max-width:200px" >
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -9,19 +9,19 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About us</a>
+                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#about">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#breed">Breed standards</a>
+                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#breed">Breed standards</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#dogs">Our dogs</a>
+                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#dogs">Our dogs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#location">Location</a>
+                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#location">Location</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -41,7 +41,7 @@
 <style>
    .navbar-brand {
        max-width: 180px !important;
-       padding-bottom: 5px !important;
+       padding-bottom: 15px !important;
    }
 
     .fixed-top {
@@ -51,7 +51,7 @@
 
     mainNav {
         padding-top: 25px !important;
-        padding-bottom: 10px !important;
+        padding-bottom: 25px !important;
     }
     .btn-primary {
         background-color: gray !important;

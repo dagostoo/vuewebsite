@@ -42,7 +42,7 @@
         data: () => ({
             modalJSON: [
                 {
-                    img: require('../assets/img/dogs/douche.jpg'),
+                    img: require('../assets/img/dogs/douche.jpeg'),
                     caption: 'DEVIL BE COME THE STAR DRAGON',
                     title: 'ja ne umeju codit',
                     text: 'dolboeb',
@@ -56,7 +56,7 @@
                     id: '2'
                 },
                 {
-                    img: require('../assets/img/dogs/douche.jpg'),
+                    img: require('../assets/img/dogs/douche.jpeg'),
                     caption: 'DEVIL BE COME THE STAR DRAGON',
                     title: 'ebanii daun',
                     text: 'daun',

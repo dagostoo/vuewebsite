@@ -15,18 +15,13 @@
               <p class="text-muted">Vabaduse pst 215-9, 10916</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://www.google.com/maps/place/P%C3%A4%C3%A4sk%C3%BCla,+Tallinn/@59.3692529,24.6064198,13z/data=!3m1!4b1!4m5!3m4!1s0x46929582a1d401e5:0xf506cb29039080d8!8m2!3d59.3688528!4d24.6357025">
+                    <i class="fa fa-map-marker"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
+                  <a href="https://www.waze.com/et/livemap/directions?utm_campaign=waze_website&utm_source=waze_website&to=ll.59.36305099%2C24.63134336">
+                    <i class="fab fa-waze"></i>
                   </a>
                 </li>
               </ul>
@@ -39,18 +34,13 @@
               <p class="text-muted">3725518112</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://www.viber.com/en/download/">
+                    <i class="fab fa-viber"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
+                  <a href="https://www.whatsapp.com/download">
+                    <i class="fas fa-comment-dots"></i>
                   </a>
                 </li>
               </ul>
@@ -63,18 +53,13 @@
               <p class="text-muted">tariet.aguraiuja@gmail.com</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://facebook.com/veronika.aguraiuja">
                     <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
+                  <a href="https://vk.com/id364820931">
+                    <i class="fab fa-vk"></i>
                   </a>
                 </li>
               </ul>

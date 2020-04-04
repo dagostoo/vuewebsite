@@ -12,7 +12,7 @@
                     <a class="puppies-link" data-toggle="modal" href="#puppiesModal2">
                         <div class="puppies-hover">
                             <div class="puppies-hover-content">
-                                <i class="fas fa-plus fa-3x"></i>
+                                <i class="fas fa-paw fa-3x"></i>
                             </div>
                         </div>
                         <img class="img-fluid" src="/img/02_thumbnail.jpg" alt="">

@@ -9,7 +9,7 @@
           <br>
           <h3 class="section-heading text-uppercase">General form</h3>
           <br>
-          <p class="text-muted">An energetic, very smart dog with a smooth short-haired, compact and harmoniously folded, with a short tail, brindle or black with white markings. The head is proportional to the size of the dog, and the expressive look indicates great quick wits. The body is rather short, tightly knit, limbs strong and slender, tail short. None of the features stand out so as to violate the harmony additions. The dog is decisive and active, extremely elegant, with his head proudly raised and laid-back, graceful posture. A distinctive feature is the uniform combination of color and white spots. When assessing the general form in relation to other articles, special significance have harmonious addition, color and arrangement of white marks.</p>
+          <p class="text-muted text-justify text-center">An energetic, very smart dog with a smooth short-haired, compact and harmoniously folded, with a short tail, brindle or black with white markings. The head is proportional to the size of the dog, and the expressive look indicates great quick wits. The body is rather short, tightly knit, limbs strong and slender, tail short. None of the features stand out so as to violate the harmony additions. The dog is decisive and active, extremely elegant, with his head proudly raised and laid-back, graceful posture. A distinctive feature is the uniform combination of color and white spots. When assessing the general form in relation to other articles, special significance have harmonious addition, color and arrangement of white marks.</p>
         </div>
       </div>
       <br>
@@ -26,10 +26,10 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4></h4>
-                  <h4 class="subheading">Height</h4>
+                  <h4 class="subheading text-left">Height</h4>
                 </div>
                 <div class="timeline-body">
-                    <p class="text-muted">The height at the withers is equal to the length of the hull, which gives the Boston Terrier a square format. The dog is strong and should not look either light or rough. The bones and muscles are proportional to the weight and build of the dog. 
+                    <p class="text-muted text-justify text-left">The height at the withers is equal to the length of the hull, which gives the Boston Terrier a square format. The dog is strong and should not look either light or rough. The bones and muscles are proportional to the weight and build of the dog.
                       <br>Sexual type: males are more courageous, females of easier constitution.
                       <br> Defects: easy (Chinese "pigs") or gross addition.</p>
                 </div>
@@ -45,7 +45,7 @@
                   <h4 class="subheading">Weight</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">By weight are divided into the following classes:
+                  <p class="text-muted text-justify text-left">By weight are divided into the following classes:
                     <br>- up to 15 pounds (6.8 kg),
                     <br>- 15 to 20 pounds (6.8-9kg),
                     <br>- from 20 pounds and not more than 25 pounds (9-11.35 kg).
@@ -60,10 +60,10 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4></h4>
-                  <h4 class="subheading">Eyes and ears</h4>
+                  <h4 class="subheading text-left">Eyes and ears</h4>
                 </div>
                 <div class="timeline-body">
-                    <p class="text-muted">Eyes wide apart, large, round, dark. Straight set, the outer corner is at the level of the cheeks.
+                    <p class="text-muted text-justify text-left">Eyes wide apart, large, round, dark. Straight set, the outer corner is at the level of the cheeks.
                       <br>Ears are small, erect or cropped, set wide and high.
                     </p>
                 </div>
@@ -79,7 +79,7 @@
                   <h4 class="subheading">Muzzle and nose lobe</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">The muzzle is short, square, wide, deep, without folds, proportional to the cranial part.
+                  <p class="text-muted text-left text-justify">The muzzle is short, square, wide, deep, without folds, proportional to the cranial part.
 The length of the muzzle is less than the width or depth; along the length of the muzzle does not exceed 1/3 of the length of the cranial part.
 The lines of the skull and muzzle are parallel.
               <br> The nose lobe is black and wide, with a clear groove between the nostrils.
@@ -97,10 +97,10 @@ The lines of the skull and muzzle are parallel.
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4></h4>
-                  <h4 class="subheading">Jaws, bite and lips</h4>
+                  <h4 class="subheading text-left">Jaws, bite and lips</h4>
                 </div>
                 <div class="timeline-body">
-                    <p class="text-muted">The jaws are wide and square; teeth are not large, incisors of the lower jaw are located on the same line.
+                    <p class="text-muted text-left">The jaws are wide and square; teeth are not large, incisors of the lower jaw are located on the same line.
                       <br> Bite is straight or undershot.
                       <br> The lips are deep, but not saggy. when the mouth is closed, all teeth are completely covered.
                       <br>Defects:
@@ -138,10 +138,10 @@ The lines of the skull and muzzle are parallel.
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4></h4>
-                  <h4 class="subheading">Gridle of the forelimbs</h4>
+                  <h4 class="subheading text-left">Gridle of the forelimbs</h4>
                 </div>
                 <div class="timeline-body">
-                    <p class="text-muted">The shoulder girdle is gentle, which gives a special elegance to the movements of the Boston Terrier.
+                    <p class="text-muted text-left">The shoulder girdle is gentle, which gives a special elegance to the movements of the Boston Terrier.
                       <br> Elbow folds are directed strictly back and do not bulge outward.
                       <br> Forelegs are parallel to each other, directly set.
                       <br> Paws - Round and small, fingers of a beautiful arched shape with short nails. Fifth fingers can be removed.
@@ -161,8 +161,7 @@ The lines of the skull and muzzle are parallel.
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">The hips are strong and muscular, obliquely set, not straightened. The hock joints are lowered low, with pronounced articulation angles, not turned in or out. Paws are small, compact, with short claws.
-              <br>Defects:
-              <br>Straight knee joints </p>
+              <br>Defects: Straight knee joints </p>
                 </div>
               </div>
             </li>
@@ -173,10 +172,10 @@ The lines of the skull and muzzle are parallel.
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4></h4>
-                  <h4 class="subheading">Movement</h4>
+                  <h4 class="subheading text-left">Movement</h4>
                 </div>
                 <div class="timeline-body">
-                    <p class="text-muted">The movements are free and smooth, the limbs move rectilinearly in an impeccable rhythm, grace and strength are visible at every step.
+                    <p class="text-muted text-left">The movements are free and smooth, the limbs move rectilinearly in an impeccable rhythm, grace and strength are visible at every step.
                       <br>Defects:
                       <br>Waddle movement or “raking” clumsy movement, intersecting movements of the front and rear limbs, amble. </p>
                 </div>
@@ -189,10 +188,10 @@ The lines of the skull and muzzle are parallel.
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4></h4>
-                  <h4 class="subheading">Hair coat</h4>
+                  <h4 class="subheading text-left">Hair coat</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">The coat is short, straight, tight-fitting, shiny and thin.
+                  <p class="text-muted text-left">The coat is short, straight, tight-fitting, shiny and thin.
                     <br>Color and markings: Tiger, "fur seal" (dark brown) or black color with white spots. Tiger is preferred only if all the details are impeccable.
                     <br>Note: the seal color looks black, but in the sun or in bright light it shines red.
                     <br>Required markings: white border around the muzzle, white blaze between the eyes, white chest.
@@ -209,10 +208,10 @@ The lines of the skull and muzzle are parallel.
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4></h4>
-                  <h4 class="subheading">Temperament</h4>
+                  <h4 class="subheading text-left">Temperament</h4>
                 </div>
                 <div class="timeline-body">
-                    <p class="text-muted">Boston Terrier is a friendly and energetic dog.
+                    <p class="text-muted text-left">Boston Terrier is a friendly and energetic dog.
                       <br>Great character and quick wits make him a great companion. </p>
                 </div>
               </div>

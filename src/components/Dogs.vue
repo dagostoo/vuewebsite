@@ -12,12 +12,12 @@
                     <a class="dogs-link" data-toggle="modal" v-bind:href=" '#dogsModal' + obj.id">
                         <div class="dogs-hover">
                             <div class="dogs-hover-content">
-                                <i class="fas fa-plus fa-3x"></i>
+                                <i class="fas fa-paw fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" v-bind:src="obj.img" :alt="dogs">
+                        <img class="img-thumbnail" v-bind:src="obj.img" :alt="dogs">
                     </a>
-                    <div class="dogs-caption">
+                    <div class="font-italic dogs-caption">
                         <h4>{{ obj.caption }}</h4>
                         <p class="text-muted">{{ obj.title }}</p>
                     </div>
@@ -32,7 +32,7 @@
         data: () => ({
             dogsJSON: [
                 {
-                    img: require('../assets/img/dogs/douche.jpg'),
+                    img: require('../assets/img/dogs/douche.jpeg'),
                     caption: 'DEVIL BE COME THE STAR DRAGON',
                     title: 'Duche',
                     id: 1
@@ -91,9 +91,10 @@
 </script>
 
 <style lang="css">
-    .img-fluid {
-        width:  auto !important;
-        height: complex !important;
+    .img-thumbnail {
+        width: 100% !important;
+        height: auto !important;
     }
+
 </style>
 
