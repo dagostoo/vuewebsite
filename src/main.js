@@ -7,6 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 const VueScrollactive = require('vue-scrollactive');
+import emailjs from "emailjs-com"
 
 library.add(faUserSecret)
 
@@ -21,4 +22,5 @@ new Vue({
 
 Vue.use(VShowSlide)
 Vue.use(VueScrollactive)
+Vue.use(emailjs)
 
