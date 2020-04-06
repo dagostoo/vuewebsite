@@ -87,6 +87,12 @@ body {
   background: black;
   font-family: "Dosis", sans-serif;
 }
+mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 85% !important;
+  letter-spacing: 0px !important;
+}
+
+
 </style>
 
 

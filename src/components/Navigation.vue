@@ -9,19 +9,22 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#about">About us</a>
+                        <a class="nav-link js-scroll-trigger" href="#about">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#breed">Breed standards</a>
+                        <a class="nav-link js-scroll-trigger" href="#breed">Breed standards</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#dogs">Our dogs</a>
+                        <a class="nav-link js-scroll-trigger" href="#dogs">Our dogs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#location">Location</a>
+                        <a class="nav-link js-scroll-trigger" href="#puppies">Our puppies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger font-weight-bold" href="#contact">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="#location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
