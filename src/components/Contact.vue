@@ -39,7 +39,6 @@
                       <strong>Your message have been sent!</strong>
                     </div>
                   </div>
-
                   <button id="sendMessageButton" value="send" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
                 </div>
               </div>
