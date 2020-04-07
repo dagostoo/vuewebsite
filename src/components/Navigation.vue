@@ -1,65 +1,78 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <img src="../assets/img/logos/white_logo_сut.png" class="navbar-brand js-scroll-trigger" href="#page-top" style="width:120%; max-width:200px" >
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="../assets/img/logos/white_logo_сut.png" class="navbar-brand js-scroll-trigger" href="#page-top"
+                 style="width:120%; max-width:200px">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#breed">Breed standards</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#dogs">Our dogs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#puppies">Our puppies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#location">Location</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                    </li>
-                </ul>
+                <scrollactive :offset="80"
+                              :duration="800"
+                              bezier-easing-value=".5,0,.35,1">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item">
+                            <a class="scrollactive-item nav-link js-scroll-trigger" href="#about">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollactive-item nav-link js-scroll-trigger" href="#breed">Breed standards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollactive-item nav-link js-scroll-trigger" href="#dogs">Our dogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollactive-item nav-link js-scroll-trigger" href="#puppies">Our puppies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollactive-item nav-link js-scroll-trigger" href="#location">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollactive-item nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </scrollactive>
             </div>
         </div>
     </nav>
 </template>
 
 <script>
+
     export default {
         name: "Navigation",
-        data(){
+        data() {
             return {imgPath: require("../assets/img/logos/golden_logo.png")}
-        }
+        },
     }
+
+
+
 </script>
 
 <style>
-   .navbar-brand {
-       max-width: 180px !important;
-       padding-bottom: 15px !important;
-   }
+    .navbar-brand {
+        max-width: 180px !important;
+        padding-bottom: 15px !important;
+    }
 
     .fixed-top {
         position: absolute;
-        background-color:black !important
+        background-color: black !important
     }
 
     mainNav {
         padding-top: 25px !important;
         padding-bottom: 25px !important;
     }
+
     .btn-primary {
         background-color: gray !important;
         border-color: gray !important
     }
+
     .btn {
         font-weight: 600 !important;
         padding-top: 1rem !important;
