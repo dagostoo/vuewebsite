@@ -18,12 +18,12 @@
     "minimist": "^1.2.5",
     "node.js": "0.0.1-security",
     "nodejs": "0.0.0",
-    "nodemailer": "^6.4.6",
     "v-show-slide": "^1.8.3",
     "vue": "^2.6.11",
     "vue-loader": "^15.9.0",
     "vue-property-decorator": "^8.4.0",
-    "vue-scrollactive": "^0.8.0"
+    "vue-scrollactive": "^0.8.0",
+    "vue-sweetalert2": "^3.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.1",

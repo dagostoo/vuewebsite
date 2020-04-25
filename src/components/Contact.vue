@@ -4,7 +4,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
         <div class="row">
@@ -33,13 +33,7 @@
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
-                  <div id="success">
-                    <div class="alert alert-success">
-                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                      <strong>Your message have been sent!</strong>
-                    </div>
-                  </div>
-                  <button id="sendMessageButton" value="send" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                  <button id="sendMessageButton" value="send" class="btn btn-primary btn-xl text-uppercase" type="submit" v-on:click="ShowAlert">Send Message</button>
                 </div>
               </div>
             </form>
@@ -55,6 +49,13 @@
 export default {
     name: 'Contact',
     methods: {
+      ShowAlert() {
+        this.$swal({
+          title: 'Success',
+          icon: 'success',
+          text: 'Your message has been sent',
+        })
+      },
       sendEmail: (e) => {
         emailjs.sendForm('contact_service', 'contact', e.target, 'user_sCQS9TxF1maFIKTOA8hrq')
                 .then((result) => {
@@ -64,5 +65,5 @@ export default {
                 });
       }
     }
-  }
+    }
 </script>

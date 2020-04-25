@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <img src="../assets/img/logos/white_logo_сut.png" class="navbar-brand js-scroll-trigger" href="#page-top"
+            <img src="../assets/img/logos/cutted_white.png" class="navbar-brand js-scroll-trigger" href="#home"
                  style="width:120%; max-width:200px">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -41,6 +41,7 @@
 
 <script>
 
+
     export default {
         name: "Navigation",
         data() {
@@ -66,11 +67,14 @@
     mainNav {
         padding-top: 25px !important;
         padding-bottom: 25px !important;
+        font-family: 'Acme' sans-serif !important;
     }
-
     .btn-primary {
         background-color: gray !important;
         border-color: gray !important
+    }
+    .nav-link {
+        font-family: 'Acme', sans-serif !important;
     }
 
     .btn {
@@ -81,6 +85,14 @@
 
     nav {
         padding: 0px 0px 0px 0px !important;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0 !important
+    }
+
+    .container {
+        width: 150% !important;
     }
 
 </style>

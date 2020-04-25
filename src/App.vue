@@ -2,6 +2,7 @@
   <div id="app">
     <link rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+          <link href="https://fonts.googleapis.com/css2?family=Acme&family=Chivo&display=swap" rel="stylesheet">
 
     <!-- Navigation -->
     <Navigation/>
@@ -9,7 +10,7 @@
     <!-- Header -->
     <Header/>
 
-    <!-- Services -->
+    <!-- About -->
 
   <About/>
 
@@ -24,10 +25,6 @@
 
     <!-- Location -->
   <Location/>
-
-
-    <!-- Clients -->
-    <Clients/>
 
     <!-- Contact -->
     <Contact/>
@@ -52,7 +49,6 @@ import Puppies from './components/Puppies'
 import Navigation from "./components/Navigation"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Clients from "./components/Clients";
 import Modals from "./components/Modals";
 
 
@@ -60,7 +56,6 @@ export default {
   name: 'app',
   components: {
     Modals,
-    Clients,
     Footer,
     Header,
     Dogs,
@@ -76,7 +71,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Chivo', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -85,7 +80,7 @@ export default {
 
 body {
   background: black;
-  font-family: "Dosis", sans-serif;
+  font-family: "Acme", sans-serif !important;
 }
 mainNav .navbar-nav .nav-item .nav-link {
   font-size: 85% !important;

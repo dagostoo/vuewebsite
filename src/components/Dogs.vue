@@ -44,12 +44,6 @@
                     id: 2
                 },
                 {
-                    img: require('../assets/img/dogs/connie.jpg'),
-                    caption: 'GALAKTIC GRAVITY CONNIE FRANCIS',
-                    title: 'Connie',
-                    id: 3
-                },
-                {
                     img: require('../assets/img/dogs/hanka.jpg'),
                     caption: 'HOW BEAUTIFUL YOU ARE TORQUES',
                     title: 'Hanka',
@@ -96,5 +90,8 @@
         height: auto !important;
     }
 
+h2, h3, h4 {
+    font-family: 'Acme', sans-serif !important;
+}
 </style>
 

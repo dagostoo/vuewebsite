@@ -270,7 +270,7 @@ defect depending on the severity.
       <br>
       <br>
       <h3 class="section-heading text-uppercase">DISQUALIFYING Defects (outside the breed):</h3>
-      <p class="text-muted"> - Lightened nose lobe.
+      <p class="text-muted mr-auto" > - Lightened nose lobe.
       <br>- Eyes of blue color or any trace of blue.
       <br>- Cocked tail.
       <br>- Solid black color, solid tiger color or solid black with no storm
@@ -287,6 +287,7 @@ lowered into the scrotum.</p>
       <br>
       <h3 class="section-heading text-uppercase">Summary</h3>
       <p class="text-muted">  The clearly defined appearance of the Boston Terrier with a short body, combined with its unique square head and jaws, as well as its color, give the dog of American origin - the Boston Terrier - elegant and charming. </p>
+      
   </section>
 </template>
 

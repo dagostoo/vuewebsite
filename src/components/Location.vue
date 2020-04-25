@@ -31,7 +31,7 @@
             <div class="location-member">
               <img class="mx-auto rounded-circle" src="img/location/2.jpg" alt="">
               <h4>Phone number</h4>
-              <p class="text-muted">3725518112</p>
+              <p class="text-muted">+3725166494</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://www.viber.com/en/download/">
@@ -50,7 +50,7 @@
             <div class="location-member">
               <img class="mx-auto rounded-circle" src="img/location/3.jpg" alt="">
               <h4>E-mail</h4>
-              <p class="text-muted">tariet.aguraiuja@gmail.com</p>
+              <p class="text-muted">mail@galakticgravity.com</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://facebook.com/veronika.aguraiuja">
@@ -68,7 +68,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            <p class="large text-muted"></p>
           </div>
         </div>
       </div>

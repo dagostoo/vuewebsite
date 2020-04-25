@@ -103,7 +103,9 @@
         .dog_image {
             width: 300px;
         }
-
+.h2 section-heading {
+    font-family: 'Acme', sans-serif !important;
+}
     }
 
 </style>

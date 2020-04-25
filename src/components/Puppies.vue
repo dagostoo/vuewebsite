@@ -15,7 +15,7 @@
                                 <i class="fas fa-paw fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="/img/02_thumbnail.jpg" alt="">
+                        <img class="img-fluid" src="" alt="">
                     </a>
                     <div class="dogs-caption">
                         <h4>{{ obj.caption }}</h4>

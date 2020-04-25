@@ -3,36 +3,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Kennel Galaktic Gravity</span>
+                    <span class="copyright text-uppercase">Copyright &copy; Kennel Galaktic Gravity</span>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/veronika.aguraiuja">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                    </ul>
+                    <img src="../assets/img/logos/black_logo_cut.png" style="width:140%; max-width:300px">
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li class="list-inline-item">
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
+                <span class="copyright text-uppercase">Privacy Policy & Terms of Use</span>
                 </div>
             </div>
         </div>
@@ -46,5 +23,7 @@
 </script>
 
 <style>
-
+ .container {
+     padding: 15px !important
+ }
 </style>

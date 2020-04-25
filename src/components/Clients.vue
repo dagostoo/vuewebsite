@@ -1,4 +1,4 @@
-<!-- Not needed atm --
+<!-- Not needed atm
 <template>
     <section class="py-5">
         <div class="container">
@@ -32,5 +32,5 @@
     export default {
         name: "Clients"
     }
-</script>
+</script> -->
 
