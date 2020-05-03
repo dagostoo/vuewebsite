@@ -12,7 +12,7 @@
             <div class="location-member">
               <img class="mx-auto rounded-circle" src="img/location/1.jpg" alt="">
               <h4>Tallinn, Estonia</h4>
-              <p class="text-muted">Vabaduse pst 215-9, 10916</p>
+              <p class="text-muted">Tirdi street, Pääsküla</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://www.google.com/maps/place/P%C3%A4%C3%A4sk%C3%BCla,+Tallinn/@59.3692529,24.6064198,13z/data=!3m1!4b1!4m5!3m4!1s0x46929582a1d401e5:0xf506cb29039080d8!8m2!3d59.3688528!4d24.6357025">

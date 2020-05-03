@@ -84,7 +84,7 @@
     }
 
     nav {
-        padding: 0px 0px 0px 0px !important;
+        padding: 10px 10px 10px 10px !important;
     }
 
     .navbar-collapse {

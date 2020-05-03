@@ -37,7 +37,7 @@
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed-standard/2.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -55,7 +55,7 @@
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed/standard/3.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -71,7 +71,7 @@
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed-standard/2.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -92,7 +92,7 @@ The lines of the skull and muzzle are parallel.
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed/standard/3.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -113,7 +113,7 @@ The lines of the skull and muzzle are parallel.
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed-standard/2.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -133,7 +133,7 @@ The lines of the skull and muzzle are parallel.
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed/standard/3.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -152,7 +152,7 @@ The lines of the skull and muzzle are parallel.
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed-standard/2.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -167,7 +167,7 @@ The lines of the skull and muzzle are parallel.
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed/standard/3.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -183,7 +183,7 @@ The lines of the skull and muzzle are parallel.
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed-standard/2.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -203,7 +203,7 @@ The lines of the skull and muzzle are parallel.
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/breed/standard/3.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -302,5 +302,8 @@ lowered into the scrotum.</p>
 <style>
     .timeline-image {
         background-color: black !important;
+        width: 120px !important;
+        height: 120px !important;
+        margin-left: -60px !important;
     }
 </style>

@@ -32,47 +32,47 @@
         data: () => ({
             puppiesJSON: [
                 {
-                    img: '/public/img/01_thumbnail.jpg',
+                    img: '',
                     caption: 'COMING SOON',
                     title: ''
                 },
                 {
-                    img: '/something/random/img.jpg',
+                    img: '',
                     caption: 'COMING SOON',
                     title: ''
                 },
                 {
-                    img: '/something/random/img.jpg',
+                    img: '',
                     caption: 'COMING SOON',
                     title: ''
                 },
                 {
-                    img: '/something/random/img.jpg',
+                    img: '',
                     caption: 'COMING SOON',
                     title: ''
                 },
                 {
-                    img: '/something/random/img.jpg',
+                    img: '',
                     caption: 'COMING SOON',
                     title: ''
                 },
                 {
-                    img: '/something/random/img.jpg',
+                    img: '',
                     caption: 'COMING SOON',
                     title: ''
                 },
                 {
-                    img: '/something/random/img.jpg',
+                    img: '',
                     caption: 'COMING SOON',
                     title: ''
                 },
                 {
-                    img: '/something/random/img.jpg',
+                    img: '',
                     caption: 'COMING SOON',
                     title: ''
                 },
                 {
-                    img: '/something/random/img.jpg',
+                    img: '',
                     caption: 'COMING SOON',
                     title: ''
                 }

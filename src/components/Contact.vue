@@ -8,7 +8,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-12">
             <form id="contactForm" class="contact" name="sentMessage" @submit.prevent="sendEmail" novalidate="novalidate">
               <div class="row">
                 <div class="col-md-6">
