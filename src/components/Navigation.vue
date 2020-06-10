@@ -18,13 +18,13 @@
                             <a class="scrollactive-item nav-link js-scroll-trigger" href="#about">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="scrollactive-item nav-link js-scroll-trigger" href="#breed">Breed standards</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="scrollactive-item nav-link js-scroll-trigger" href="#dogs">Our dogs</a>
                         </li>
                         <li class="nav-item">
                             <a class="scrollactive-item nav-link js-scroll-trigger" href="#puppies">Our puppies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrollactive-item nav-link js-scroll-trigger" href="#breed">Breed standards</a>
                         </li>
                         <li class="nav-item">
                             <a class="scrollactive-item nav-link js-scroll-trigger" href="#location">Location</a>
@@ -48,7 +48,6 @@
             return {imgPath: require("../assets/img/logos/golden_logo.png")}
         },
     }
-
 
 
 </script>

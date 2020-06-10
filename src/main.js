@@ -7,14 +7,18 @@ import VShowSlide from 'v-show-slide'
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {faUserSecret} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
-import VueScrollactive from 'vue-scrollactive'
 import emailjs from "emailjs-com"
 import VueSweetalert2 from 'vue-sweetalert2'; 
+import VueScrollactive from 'vue-scrollactive';
+
+Vue.use(VueScrollactive)
+
+//const VueScrollactive = require('vue-scrollactive')
 
 library.add(faUserSecret)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-Vue.component('vue-scrollactive', VueScrollactive)
+//Vue.component('vue-scrollactive', VueScrollactive)
 
 
 Vue.config.productionTip = false
@@ -30,7 +34,7 @@ const options = {
  
 Vue.use(VueSweetalert2, options);
 Vue.use(VShowSlide);
-Vue.use(VueScrollactive);
+//Vue.use(VueScrollactive);
 Vue.use(emailjs);
 
 

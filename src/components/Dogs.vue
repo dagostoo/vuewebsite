@@ -15,7 +15,7 @@
                                 <i class="fas fa-paw fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-thumbnail" v-bind:src="obj.img" :alt="dogs">
+                        <img class="img-thumbnail" v-bind:src="obj.img">
                     </a>
                     <div class="font-italic dogs-caption">
                         <h4>{{ obj.caption }}</h4>
