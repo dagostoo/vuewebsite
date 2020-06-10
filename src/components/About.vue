@@ -1,6 +1,6 @@
 <template>
-    <section id="about">
-        <div class="container">
+    <section id="about" style="max-width: 1140px; margin: auto">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase ">About us</h2>

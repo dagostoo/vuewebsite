@@ -1,6 +1,6 @@
 <template>
   <section id="breed">
-    <div class="container">
+    <div class="container-fluid" style="max-width: 1140px; margin: auto">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Boston Terrier breed standards</h2>
@@ -202,7 +202,7 @@ The lines of the skull and muzzle are parallel.
               </div>
             </li>
             <li>
-              <div class="timeline-image">
+              <div class="timeline-image endImg">
                 <img class="rounded-circle img-fluid" src="" alt="">
               </div>
               <div class="timeline-panel">
@@ -223,71 +223,91 @@ The lines of the skull and muzzle are parallel.
     <br>
     <br>
     <br>
-    <h3 class="section-heading text-uppercase">Point scale</h3>
-    <div class="col-lg-12 text-center text-uppercase text-muted">
-     <br> General view 10
-     <br> Expression 10
-     <br>Head (muzzle, jaw, bite, cranial part and transition from forehead to muzzle) 15
-     <br> Eyes 5
-     <br> Ears 5
-     <br> Neck, top line, body and tail 15
-     <br> Front 10
-     <br> Back 10
-     <br> Paws 5
-     <br> Color and hair 5
-     <br> Movement 10
-     <br> ______________________
-     <br> Total 100
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h3 class="section-heading text-uppercase">Defects</h3>
-    <p class="text-muted">Any deviation from the above points shall be regarded as a defect or
-defect depending on the severity.
-      <br>- Unkempt or awkward in appearance.
-      <br>- Narrowed or large nostrils.
-      <br>- The eyes show too much sclera or conjunctiva.
-      <br>- The size of the ears is not proportional to the size of the head.
-      <br>- Fun carrying tail.
-      <br>- Lack of bones.
-      <br>- Rectified knee angles.
-      <br>- Followed paws.
-      <br>- Motion to the back, raking or braiding; prancing step. </p>
-      <br>
-      <br>
-      <br>
-      <br>
-      <h3 class="section-heading text-uppercase">SERIOUS DISADVANTAGES (defects)</h3>
-      <p class="text-muted">- Jaw distortion.
-      <br>- Any demonstration of the tongue or teeth with a closed mouth.
-      <br>- Humpback or sagging back.
-      <br>- Fish-chested.
-      <br>- Movement: any cross of the front or hind limbs.</p>
-      <br>
-      <br>
-      <br>
-      <br>
-      <h3 class="section-heading text-uppercase">DISQUALIFYING Defects (outside the breed):</h3>
-      <p class="text-muted mr-auto" > - Lightened nose lobe.
-      <br>- Eyes of blue color or any trace of blue.
-      <br>- Cocked tail.
-      <br>- Solid black color, solid tiger color or solid black with no storm
-required white marks.
-      <br>- Gray or liver brown colors.</p>
-      <br>
-      <br>
-      <br>
-      <h3 class="section-heading text-uppercase">Remark</h3>
-      <p class="text-muted">  Males must have two apparently normal testes, fully
+    <div class="meinCards" style="max-width: 1140px; margin: auto">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-between">
+          <div class="card col-10 col-md-5" style="width: 18rem;  margin-top:24px">
+            <div class="card-body">
+              <h5 class="card-title">Point scale</h5>
+              <br> Expression 10
+              <br>Head (muzzle, jaw, bite, cranial part and transition from forehead to muzzle) 15
+              <br> Eyes 5
+              <br> Ears 5
+              <br> Neck, top line, body and tail 15
+              <br> Front 10
+              <br> Back 10
+              <br> Paws 5
+              <br> Color and hair 5
+              <br> Movement 10
+              <hr>
+              <br> Total 100
+            </div>
+          </div>
+          <div class="card col-10 col-md-5" style="width: 18rem;  margin-top:24px">
+            <div class="card-body">
+              <h5 class="card-title">Defects</h5>
+            <ul class="text-muted" style="text-align:left">
+              <li>Any deviation from the above points shall be regarded as a defect or
+defect depending on the severity.</li>
+              <li>Unkempt or awkward in appearance.</li>
+              <li>Narrowed or large nostrils.</li>
+              <li>The eyes show too much sclera or conjunctiva.</li>
+              <li>The size of the ears is not proportional to the size of the head.</li>
+              <li>Fun carrying tail.</li>
+              <li>Lack of bones.</li>
+              <li>Rectified knee angles.</li>
+              <li>Followed paws.</li>
+              <li>Motion to the back, raking or braiding; prancing step.</li>
+            </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row d-flex justify-content-between" >
+          <div class="card col-10 col-md-5" style="width: 18rem;  margin-top:24px">
+            <div class="card-body">
+              <h5 class="card-title">SERIOUS DISADVANTAGES (defects)</h5>
+              <ul class="text-muted" style="text-align:left">
+                <li>Jaw distortion.</li>
+                <li>Any demonstration of the tongue or teeth with a closed mouth.</li>
+                <li>Humpback or sagging back.</li>
+                <li>Fish-chested.</li>
+                <li>Movement: any cross of the front or hind limbs.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-10 col-md-5" style="width: 18rem;  margin-top:24px">
+            <div class="card-body">
+              <h5 class="card-title">DISQUALIFYING Defects (outside the breed):</h5>
+              <ul class="text-muted" style="text-align:left">
+                <li>Lightened nose lobe.</li>
+                <li>Eyes of blue color or any trace of blue.</li>
+                <li>Cocked tail.</li>
+                <li>Solid black color, solid tiger color or solid black with no storm
+        required white marks.</li>
+                <li>Gray or liver brown colors.</li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row d-flex justify-content-between" >
+          <div class="card col-10 col-md-5" style="width: 18rem; margin-top:24px">
+            <div class="card-body">
+              <h5 class="card-title">Remark</h5>
+              <p class="text-muted">  Males must have two apparently normal testes, fully
 lowered into the scrotum.</p>
-      <br>
-      <br>
-      <br>
-      <h3 class="section-heading text-uppercase">Summary</h3>
-      <p class="text-muted">  The clearly defined appearance of the Boston Terrier with a short body, combined with its unique square head and jaws, as well as its color, give the dog of American origin - the Boston Terrier - elegant and charming. </p>
-      
+            </div>
+          </div>
+          <div class="card col-10 col-md-5" style="width: 18rem;  margin-top:24px">
+            <div class="card-body">
+              <h5 class="card-title">Summary</h5>
+               <p class="text-muted">  The clearly defined appearance of the Boston Terrier with a short body, combined with its unique square head and jaws, as well as its color, give the dog of American origin - the Boston Terrier - elegant and charming. </p>
+            </div>
+          </div>         
+        </div> 
+      </div>
+    </div>
   </section>
 </template>
 
@@ -302,8 +322,21 @@ lowered into the scrotum.</p>
 <style>
     .timeline-image {
         background-color: black !important;
-        width: 120px !important;
-        height: 120px !important;
-        margin-left: -60px !important;
+        width: 80px !important;
+        height: 80px !important;
+        margin-left: -40px !important;
+    }
+
+    .endImg{
+      margin-top: 100px;
+    }
+
+    @media screen and (max-width: 767px) {
+      .timeline-image{
+        margin-left: -2px !important;
+      }
+      .card{
+        margin: auto;
+      }
     }
 </style>

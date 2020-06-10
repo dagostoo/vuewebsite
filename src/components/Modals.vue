@@ -9,7 +9,7 @@
                                 <div class="rl"></div>
                             </div>
                         </div>
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="col-lg-8 mx-auto">
                                     <div class="modal-body">
@@ -19,7 +19,7 @@
                                         <img class="img-fluid d-block mx-auto" v-bind:src="obj.img"  alt="modals" style="width:350px; height:100%; object-fit: cover;">
                                         <img class="img-fluid d-block mx-auto" v-bind:src="obj.img2"  alt="">
                                         <p>{{obj.text}}</p>
-                                        <ul class="list-inline">
+                                        <ul class="list-inline" style="text-align:left; max-width: 380px; margin: auto">
                                             <li>{{obj.textarea}}</li>
                                             <li>{{obj.textarea2}}</li>
                                             <li>{{obj.textarea3}}</li>
@@ -30,7 +30,7 @@
                                             <li>{{obj.textarea8}}</li>
                                             <li>{{obj.textarea9}}</li>
                                         </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <button style="margin-top: 20px" class="btn btn-primary" data-dismiss="modal" type="button">
                                             <i class="fas fa-times"></i>
                                             Close Project</button>
                                     </div>

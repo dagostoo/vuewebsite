@@ -1,6 +1,7 @@
 <template>
     <section class="bg-light" id="location">
-      <div class="container">
+      <div class="wrapper" style="max-width: 1140px; margin: auto">
+        <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">location</h2>
@@ -71,6 +72,7 @@
             <p class="large text-muted"></p>
           </div>
         </div>
+      </div>
       </div>
     </section>
 </template>

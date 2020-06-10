@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
                     <span class="copyright text-uppercase">Copyright &copy; Kennel Galaktic Gravity</span>

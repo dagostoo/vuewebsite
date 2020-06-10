@@ -1,6 +1,7 @@
 <template>
     <section id="contact">
-      <div class="container">
+      <div class="wrapper" style="max-width: 1140px; margin: auto">
+        <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Us</h2>
@@ -40,6 +41,8 @@
           </div>
         </div>
       </div>
+      </div>
+      
     </section>
 </template>
 

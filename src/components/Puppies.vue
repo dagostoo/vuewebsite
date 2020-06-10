@@ -1,6 +1,6 @@
 <template>
     <section class="bg-light" id="puppies">
-        <div class="container">
+        <div class="container-fluid" style="max-width: 1140px; margin: auto">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">Our puppies</h2>

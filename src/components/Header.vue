@@ -2,8 +2,8 @@
     <header class="masthead">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading text-uppercase text-left col-7">Welcome To Kennel Galaktic Gravity website!</div>
-                <div class="intro-lead-in text-left col-7">It's Nice To Meet You</div>
+                <div style="font-size: 56px" class="intro-heading text-uppercase text-left col-6">Welcome To Kennel Galaktic Gravity website!</div>
+                <div style="font-size: 56px" class="intro-lead-in text-left col-7">It's Nice To Meet You</div>
                 <a class="btn-header btn-primary btn-xl text-uppercase js-scroll-trigger col-2" href="#about">Tell Me More</a>
             </div>
         </div>
